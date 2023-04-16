@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.action {
+    margin-top: 10px;
+}
+button {
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    cursor: pointer;
+    background: none;
+}
+p {
+    font-size: 18px;
+}
+span {
+    color: dodgerblue;
+    text-decoration: underline;
+}
